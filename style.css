@@ -1,0 +1,29 @@
+.categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: rgb(207, 207, 207);
+    width: 300px;
+}
+.category:checked{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: rgb(156, 95, 95);
+    width: 400px;
+}
+.takeUsername{
+    display: block;
+    position: relative;
+}
